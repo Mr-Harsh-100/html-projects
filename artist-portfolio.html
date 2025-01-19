@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Portfolio</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+video, audio {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Artist Portfolio</h1>
+        <p>Explore the works of [Artist Name], featuring music and video highlights.</p>
+    </header>
+
+    <main>
+        <!-- Audio Section -->
+        <section>
+            <h2>Featured Song</h2>
+            <figure>
+                <figcaption>
+                    <strong>Title:</strong> Song Title<br>
+                    <strong>Description:</strong> A brief description of the song.
+                </figcaption>
+                <audio controls>
+                    <source src="path/to/song.mp3" type="audio/mpeg">
+                    <source src="path/to/song.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
+            <a href="path/to/song.mp3" download>Download Song</a>
+            <p class="copyright">© 2025 [Artist Name]. All rights reserved.</p>
+        </section>
+
+        <!-- Video Section -->
+        <section>
+            <h2>Video Highlights</h2>
+            <article>
+                <h3>Video 1: Demo Performance</h3>
+                <video controls preload="metadata" width="100%">
+                    <source src="path/to/video1.mp4" type="video/mp4">
+                    <source src="path/to/video1.webm" type="video/webm">
+                    Your browser does not support the video element.
+                </video>
+                <a href="path/to/video1.mp4" download>Download Video</a>
+                <p class="copyright">© 2025 [Artist Name]. All rights reserved.</p>
+            </article>
+
+            <article>
+                <h3>Video 2: Movie Trailer</h3>
+                <video controls preload="metadata" width="100%">
+                    <source src="path/to/video2.mp4" type="video/mp4">
+                    <source src="path/to/video2.webm" type="video/webm">
+                    Your browser does not support the video element.
+                </video>
+                <a href="path/to/video2.mp4" download>Download Video</a>
+                <p class="copyright">© 2025 [Artist Name]. All rights reserved.</p>
+            </article>
+
+            <article>
+                <h3>Video 3: Interview</h3>
+                <video controls preload="metadata" width="100%">
+                    <source src="path/to/video3.mp4" type="video/mp4">
+                    <source src="path/to/video3.webm" type="video/webm">
+                    <track src="path/to/subtitles.vtt" kind="subtitles" srclang="en" label="English">
+                    Your browser does not support the video element.
+                </video>
+                <a href="path/to/video3.mp4" download>Download Video</a>
+                <p class="copyright">© 2025 [Artist Name]. All rights reserved.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 [Artist Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
